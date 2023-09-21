@@ -1,0 +1,110 @@
+.searchListItem {
+  border: solid 1px lightgray;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.sliDescription {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 2;
+}
+
+.sliImg {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.sliTitle {
+  font-size: 20px;
+  color: rgb(7, 137, 202);
+}
+
+.sliDistance {
+  font-size: 12px;
+}
+
+.sliTag {
+  font-size: 12px;
+  background-color: green;
+  color: white;
+  width: max-content;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.sliDesc {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.sliType {
+  font-size: 12px;
+}
+
+.sliCancel {
+  font-size: 12px;
+  color: green;
+  font-weight: bold;
+}
+
+.sliCancelOp {
+  font-size: 12px;
+  color: green;
+}
+
+.sliDetails {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sliRating {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sliRating > span {
+  font-weight: 500;
+}
+
+.sliRating > button {
+  background-color: rgb(0, 0, 114);
+  color: white;
+  padding: 5px;
+  font-weight: bold;
+  border: none;
+}
+
+.sliDetail {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.sliPrice {
+  font-size: 24px;
+}
+
+.sliTax {
+  font-size: 12px;
+  color: gray;
+}
+
+.sliCheckBtn {
+  background-color: rgb(7, 137, 202);
+  color: white;
+  border: none;
+  font-weight: bold;
+  padding: 10px 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}

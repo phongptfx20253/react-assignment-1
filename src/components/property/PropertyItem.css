@@ -1,0 +1,21 @@
+.propertyItem {
+  flex: 1;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.pItemImg {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.pItemTitles > h1 {
+  font-size: 18px;
+}
+
+.pItemTitles > h2 {
+  font-size: 14px;
+  font-weight: 300;
+}

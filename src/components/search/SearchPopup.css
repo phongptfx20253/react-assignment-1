@@ -1,0 +1,62 @@
+.searchPopup {
+  flex: 1;
+  background-color: #febb02;
+  border-radius: 10px;
+  padding: 10px;
+  top: 10px;
+  height: max-content;
+}
+
+.searchPopupItem {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.searchPopupItem > label {
+  font-size: 12px;
+}
+
+.searchPopupItem > input {
+  height: 30px;
+  border: none;
+  padding: 5px;
+}
+
+.searchPopupTitle {
+  font-size: 20px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.checkinDate {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.spOptionItem {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  color: #555;
+  font-size: 12px;
+}
+
+.spOptionItem > input {
+  width: 50px;
+}
+
+.spOptions {
+  padding: 10px;
+}
+
+.searchPopup > button {
+  padding: 10px;
+  background-color: rgb(7, 137, 202);
+  color: white;
+  border: none;
+  width: 100%;
+  font-weight: 500;
+  cursor: pointer;
+}

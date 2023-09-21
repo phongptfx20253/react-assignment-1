@@ -1,0 +1,17 @@
+.footer {
+  margin: 0 auto;
+  width: 1024px;
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.footerList {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.footerCopyright {
+  margin-bottom: 20px;
+}

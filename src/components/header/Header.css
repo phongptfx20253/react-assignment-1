@@ -1,0 +1,81 @@
+.header {
+  background-color: rgb(0, 0, 114);
+  color: white;
+  position: relative;
+}
+
+.headerContainer {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1024px;
+  padding: 10px;
+}
+
+.headerDescription {
+  margin: 20px 0px;
+}
+
+.headerBtn {
+  background-color: rgb(7, 137, 202);
+  color: white;
+  font-weight: 500;
+  border: none;
+  padding: 10px;
+  margin: 10px 0px 100px 0px;
+}
+
+.headerSearch {
+  width: 100%;
+  max-width: 1024px;
+  height: 30px;
+  background-color: white;
+  border: 3px solid #febb02;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 0px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: -25px;
+}
+
+.headerIcon {
+  color: lightgray;
+}
+
+.headerBtnSearch {
+  background-color: rgb(7, 137, 202);
+  color: white;
+  font-weight: 500;
+  border: none;
+  padding: 10px;
+}
+
+.headerSearchItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.headerSearchInput {
+  border: none;
+  outline: none;
+}
+
+.headerSearchInputOption {
+  border: none;
+  outline: none;
+  width: 15px;
+  /* margin-left: 10px; */
+}
+
+.headerSearchText {
+  color: lightgray;
+  cursor: pointer;
+}
+
+.date {
+  position: absolute;
+  top: 50px;
+  z-index: 2;
+}
